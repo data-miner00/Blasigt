@@ -25,6 +25,7 @@
           {
             buildInputs = with pkgs; [
               dotnet-sdk_8
+              just
             ];
 
             shellHook = ''
